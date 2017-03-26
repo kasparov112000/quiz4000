@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nunez.quiz4000"
+    android:versionCode="2"
+    android:versionName="2.0">
+    <application android:icon="@drawable/logo2" android:label="@string/app_name" android:name=".ChuckApplication" >
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".RulesActivity" />
+        <activity android:name=".EndgameActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AnswerActivity" />
+    </application>
+    <uses-sdk android:minSdkVersion="2" />
+
+    </manifest>
